@@ -1,6 +1,11 @@
 body{
     margin: 0px;
 }
+h2{
+    font-size: 3vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;    
+}
 
 #Global-Container{
     display: flex;
@@ -9,7 +14,9 @@ body{
     align-items: center;
 }
 
+
 #Name-Photo-Title-Section{
+    padding: 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,20 +24,80 @@ body{
     background-color: #DFDFDE;
     width: 90%;
 }
-
 #My-name{
     font-size: 4vw;
     font-weight: 900;
-    font-family: 'Roboto Slab', serif;    margin: 10px
+    font-family: 'Roboto Slab', serif;    
+    margin: 10px
 }
-
 #Profile-Picture{
     width: 25vw;
     height: 26vw;
 }
-
 #My-id{
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-style: italic;
     font-weight: 500;
-    font-family: 'Roboto Slab', serif;}
+    font-family: 'Roboto Slab', serif;
+    margin: 10px
+}
+
+#Personal-Info-Section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "hd hd"
+    "phone-element phone-number"
+    "email-element email-address"
+    "linkedin-element linkedin-link"
+    "github-element github-link";
+    width: 90%;
+    justify-items: left;
+    align-items: center;
+    background-color: #F7F5F2;
+    margin: 2vw;
+    padding: 2vw;
+}
+#Personal-Info-header{
+    margin-bottom: 1vw;
+    grid-area: hd;
+}
+.Personal-Info-element{
+    padding-left: 4vw;
+    font-size: 1.7vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;    
+}
+#Phone-Element{
+    grid-area: phone-element;
+}
+#Phone-Number{
+    grid-area: phone-number;
+    font-size: 1.6vw;
+    font-family: 'Roboto Slab', serif;
+}
+#Email-Element{
+    grid-area: email-element;
+}
+#Email-Address{
+    grid-area:email-address;
+}
+#LinkedIn-Element{
+    grid-area: linkedin-element;
+}
+#LinkedIn-Link{
+    grid-area: linkedin-link; 
+}
+#Github-Element{
+    grid-area: github-element;
+
+}
+#Github-Link{
+    grid-area: github-link;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.6vw;
+    font-family: 'Roboto Slab', serif;
+    color: #2155CD;
+}
