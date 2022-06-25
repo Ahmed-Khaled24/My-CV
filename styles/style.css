@@ -36,7 +36,7 @@ p{
     font-weight: 900;
     font-family: 'Roboto Slab', serif;    
     margin: 1vw;
-    color: rgba(0, 0, 0, 0.556);
+    color: #00000074;
 }
 #Profile-Picture{
     width: 23vw;
@@ -57,7 +57,7 @@ p{
 #Personal-Info-Section{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-auto-rows: minmax(50px, auto);
+    grid-auto-rows: auto;
     grid-template-areas: "hd hd";
     align-items: center;
 }
