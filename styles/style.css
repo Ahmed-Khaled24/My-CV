@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+
+#Global-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Name-Photo-Title-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFDFDE;
+    width: 90%;
+}
+
+#My-name{
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;    margin: 10px
+}
+
+#Profile-Picture{
+    width: 25vw;
+    height: 26vw;
+}
+
+#My-id{
+    font-size: 1.5vw;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;}
